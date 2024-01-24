@@ -1,0 +1,201 @@
+body {
+    background-color: #1e202b;
+}
+.container {
+    width: 65%;
+}
+
+.navbar-brand{
+    width: 20%;
+}
+
+#nav {
+    background-color: #1e202b;
+}
+
+.nav-link {
+    color: white !important;
+    padding-inline: 25px !important;
+    margin-inline: 8px;
+    border: 2px solid;
+    border-color: transparent;
+    border-radius: 800px;
+    padding-block: 3px !important;
+    transition: all 0.5s;
+}
+
+.nav-link.active , .nav-link:hover {
+    color: #009ad8 !important;
+    border-color: #009ad8;
+}
+
+h1 {
+    font-size: 18px ;
+}
+
+#nav p {
+    font-size: 12px ;
+    color:#bfc1c8;
+}
+/* ----------------------- */
+
+
+.search-input .find-btn{
+    background: #009ad8;
+    padding: 1px 30px;
+    border-radius: 30px;
+    color: white;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border: none;
+}
+
+
+#search{
+    background-image: url("https://routeweather.netlify.app/images/banner.png");
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+
+.search-input form input[type="text"]{
+    padding: 10px 100px 10px 15px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none !important;
+    border-radius: 30px;
+}
+.forecast-table p {
+    font-size: 14px ;
+    color:#bfc1c8;
+    margin-bottom: 0;
+}
+.forecast-table .forcast-header {
+    background-color: #2D303D;
+    padding-block: 15px;
+}
+
+.forecast-table .forcast-content {
+    background-color: #323544;
+    padding-block: 15px;
+}
+
+.tomorrow-header {
+    background-color: #222531 ;
+    padding-block: 15px;
+}
+
+.tomorrow-content {
+    background-color: #262936 ;
+    padding-block: 15px;
+}
+
+.degree {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.custom {
+    color: #009ad8;
+    padding-block: 15px;
+}
+
+small {
+    color:#bfc1c8 ;
+}
+
+.forecast-icon {
+    padding-block: 15px;
+}
+
+#table-data {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #323544;
+}
+
+
+.today-forcast{
+    width: 33.3%;
+    
+}
+
+@media screen and (max-width: 992px){
+    .today-forcast{
+        width: 100%;
+    }
+    
+
+}
+
+/* ----------------------- */
+footer {
+    background-color: #262936 ; 
+}
+
+#footer p {
+    font-size: 14px ;
+    color:#bfc1c8;
+}
+
+
+.city-name {
+    font-size: 18px ;
+    color:#bfc1c8;
+}
+
+#footer .submit-btn{
+    background: #009ad8;
+    padding: 1px 20px;
+    border-radius: 30px;
+    color: white;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border: none;
+}
+#footer form input[type="text"]{
+    padding: 10px 100px 10px 15px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    outline: none;
+    border: none !important;
+    border-radius: 30px;
+}
+
+#footer form {
+    margin-bottom: 30px;
+}
+
+
+#footer  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #1e202b;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+#footer  a:hover{
+    background-color: #009ad8;
+}
+
+
+#footer  a:hover i {
+    color: white;
+}
+
+#footer i {
+    color: #009ad8;
+    transition: 0.3s ease;
+}   
